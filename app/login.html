@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoMix Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Login</h2>
+        <p class="subtitle">Enter your email and password to log in.</p>
+
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Enter email address" required>
+
+            <label>Password</label>
+            <div class="password-box">
+                <input type="password" id="password" placeholder="Enter password" required>
+                <span class="toggle" onclick="togglePassword()">👁️</span>
+            </div>
+
+            <div class="forgot">
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="btn login-btn">Login</button>
+        </form>
+
+        <div class="divider">
+            <span></span>
+            <p>Or, Login with</p>
+            <span></span>
+        </div>
+
+        <button class="btn social-btn google">
+            <img src="https://img.icons8.com/color/20/000000/google-logo.png">
+            Google
+        </button>
+
+        <button class="btn social-btn facebook">
+            <img src="https://img.icons8.com/fluency/20/000000/facebook-new.png">
+            Facebook
+        </button>
+
+        <p class="register-text">
+            Don't have an account? <a href="#">Register</a>.
+        </p>
+
+    </div>
+</body>
+</html>

@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoMix Login</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="center-text">
-            <h2>Welcome to GoMix</h2>
-            <p>Smart Routes.<br>Smarter Moves.</p>
-        </div>
+  <div class="profile-container">
+    <h2>My Profile</h2>
 
-        <button class="btn login-btn">Login</button>
-
-        <button class="btn create-account">I don't have an account.</button>
-
-        <div class="divider">
-            <span></span>
-            <p>Or</p>
-            <span></span>
-        </div>
-
-        <button class="btn social-btn google">
-            <img src="https://img.icons8.com/color/20/000000/google-logo.png" />
-            Login with Google
-        </button>
-
-        <button class="btn social-btn facebook">
-            <img src="https://img.icons8.com/fluency/20/000000/facebook-new.png" />
-            Login with Facebook
-        </button>
-
-        <p class="terms">
-            By Login or Register, you agree to our <a href="#">Service Agreement</a> and
-            <a href="#">Terms and Conditions</a>.
-        </p>
+    <div class="profile-header">
+      <img src="tải xuống.jpg" width="200"  />
+      <div class="profile-info">
+        <h3>Hoàng Quân <i class="fa-solid fa-circle-check verified"></i></h3>
+        <p>Hquan3636@gmail.com</p>
+      </div>
+      <i class="fa-regular fa-pen-to-square edit-icon"></i>
     </div>
+
+    <div class="premium-box">
+      <i class="fa-solid fa-crown"></i>
+      <p>Upgrade to RedeemIt Premium!</p>
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <div class="section">
+      <p class="section-title">ACCOUNT SETTING</p>
+      <ul>
+        <li><i class="fa-regular fa-credit-card"></i> Payment Method</li>
+        <li><i class="fa-solid fa-lock"></i> Account security</li>
+        <li><i class="fa-regular fa-bell"></i> Notification</li>
+        <li><i class="fa-solid fa-globe"></i> Change Language</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <p class="section-title">SUPPORT</p>
+      <ul>
+        <li><i class="fa-regular fa-file-lines"></i> Terms and Conditions</li>
+        <li><i class="fa-regular fa-circle-question"></i> About</li>
+        <li><i class="fa-regular fa-star"></i> Rate Us</li>
+      </ul>
+      <p class="version">v 2.11.2</p>
+    </div>
+
+    <button class="logout-btn">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+    </button>
+  </div>
 </body>
 </html>
